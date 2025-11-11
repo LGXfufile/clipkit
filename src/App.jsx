@@ -121,17 +121,17 @@ function App() {
         <div className="max-w-4xl mx-auto">
           
           {showWelcome ? (
-            <div className="text-center py-16">
+            <div className="text-center py-12">
               {/* 主标题 */}
-              <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4 tracking-tight">
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-3 tracking-tight">
                 优雅的剪贴板管理
               </h2>
-              <p className="text-lg text-gray-600 mb-12 max-w-2xl mx-auto leading-relaxed">
+              <p className="text-base text-gray-600 mb-8 max-w-2xl mx-auto leading-relaxed">
                 安全、私密、智能。让您的复制粘贴工作流程变得更加高效。
               </p>
 
               {/* 功能亮点 */}
-              <div className="grid md:grid-cols-3 gap-6 mb-12">
+              <div className="grid md:grid-cols-3 gap-6 mb-8">
                 <div className="text-center">
                   <div className="w-8 h-8 rounded-lg bg-green-100 flex items-center justify-center mx-auto mb-3">
                     <svg className="w-4 h-4 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -164,23 +164,23 @@ function App() {
               </div>
 
               {/* 开始提示 */}
-              <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 max-w-lg mx-auto">
-                <h4 className="font-semibold text-blue-900 mb-2">开始使用</h4>
+              <div className="bg-blue-50 border border-blue-200 rounded-xl p-4 max-w-lg mx-auto">
+                <h4 className="font-semibold text-blue-900 mb-1">开始使用</h4>
                 <p className="text-blue-800 text-sm">
                   复制任何文本，它会自动出现在这里。点击任何条目可重新复制。
                 </p>
               </div>
             </div>
           ) : (
-            <div className="py-8">
+            <div className="py-6">
               {/* 内容标题 */}
-              <div className="text-center mb-8">
-                <h2 className="text-2xl font-bold text-gray-900 mb-2">剪贴板历史</h2>
+              <div className="text-center mb-6">
+                <h2 className="text-xl font-bold text-gray-900 mb-1">剪贴板历史</h2>
                 <p className="text-gray-600">{history.length} 条记录</p>
               </div>
 
               {/* 剪贴板列表 */}
-              <div className="space-y-3 max-h-96 overflow-y-auto">
+              <div className="space-y-3 max-h-80 overflow-y-auto">
                 {history.map((item, index) => (
                   <div
                     key={item.id}
@@ -200,7 +200,7 @@ function App() {
       </main>
 
       {/* 底部 */}
-      <footer className="relative z-10 text-center py-8 mt-16">
+      <footer className="relative z-10 text-center py-4 mt-8">
         <p className="text-sm text-gray-500">
           ClipKit · 让剪贴板管理变得优雅
         </p>
