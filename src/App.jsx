@@ -126,39 +126,39 @@ function App() {
               <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4 tracking-tight">
                 优雅的剪贴板管理
               </h2>
-              <p className="text-xl text-gray-600 mb-12 max-w-2xl mx-auto leading-relaxed">
+              <p className="text-lg text-gray-600 mb-12 max-w-2xl mx-auto leading-relaxed">
                 安全、私密、智能。让您的复制粘贴工作流程变得更加高效。
               </p>
 
               {/* 功能亮点 */}
-              <div className="grid md:grid-cols-3 gap-8 mb-16">
+              <div className="grid md:grid-cols-3 gap-6 mb-12">
                 <div className="text-center">
-                  <div className="w-12 h-12 rounded-xl bg-green-100 flex items-center justify-center mx-auto mb-4">
-                    <svg className="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <div className="w-10 h-10 rounded-lg bg-green-100 flex items-center justify-center mx-auto mb-3">
+                    <svg className="w-5 h-5 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                     </svg>
                   </div>
-                  <h3 className="font-semibold text-gray-900 mb-2">隐私保护</h3>
+                  <h3 className="font-semibold text-gray-900 mb-1">隐私保护</h3>
                   <p className="text-gray-600 text-sm">数据仅存储在本地设备</p>
                 </div>
 
                 <div className="text-center">
-                  <div className="w-12 h-12 rounded-xl bg-blue-100 flex items-center justify-center mx-auto mb-4">
-                    <svg className="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <div className="w-10 h-10 rounded-lg bg-blue-100 flex items-center justify-center mx-auto mb-3">
+                    <svg className="w-5 h-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                     </svg>
                   </div>
-                  <h3 className="font-semibold text-gray-900 mb-2">自动同步</h3>
+                  <h3 className="font-semibold text-gray-900 mb-1">自动同步</h3>
                   <p className="text-gray-600 text-sm">实时监控剪贴板变化</p>
                 </div>
 
                 <div className="text-center">
-                  <div className="w-12 h-12 rounded-xl bg-purple-100 flex items-center justify-center mx-auto mb-4">
-                    <svg className="w-6 h-6 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <div className="w-10 h-10 rounded-lg bg-purple-100 flex items-center justify-center mx-auto mb-3">
+                    <svg className="w-5 h-5 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
                     </svg>
                   </div>
-                  <h3 className="font-semibold text-gray-900 mb-2">简约美观</h3>
+                  <h3 className="font-semibold text-gray-900 mb-1">简约美观</h3>
                   <p className="text-gray-600 text-sm">精心设计的用户体验</p>
                 </div>
               </div>

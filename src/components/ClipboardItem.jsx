@@ -56,8 +56,8 @@ const ClipboardItem = ({ item, onCopy }) => {
     >
       <div className="flex items-start gap-3">
         {/* 内容类型图标 */}
-        <div className="flex-shrink-0 mt-1">
-          <span className="text-lg">{getContentTypeIcon(item.text)}</span>
+        <div className="flex-shrink-0 mt-0.5">
+          <span className="text-sm">{getContentTypeIcon(item.text)}</span>
         </div>
         
         <div className="flex-1 min-w-0">
